@@ -13,6 +13,11 @@
 		B07C8D362454504500283F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07C8D342454504500283F3F /* Main.storyboard */; };
 		B07C8D382454504700283F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07C8D372454504700283F3F /* Assets.xcassets */; };
 		B07C8D3B2454504700283F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07C8D392454504700283F3F /* LaunchScreen.storyboard */; };
+		B07C8D432454509700283F3F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C8D422454509700283F3F /* Coordinator.swift */; };
+		B07C8D452454518C00283F3F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C8D442454518C00283F3F /* Storyboarded.swift */; };
+		B07C8D4724545CED00283F3F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C8D4624545CED00283F3F /* MainCoordinator.swift */; };
+		B07C8D492454614E00283F3F /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C8D482454614E00283F3F /* BuyViewController.swift */; };
+		B07C8D4B2454615D00283F3F /* OpenAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C8D4A2454615D00283F3F /* OpenAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B07C8D372454504700283F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07C8D3A2454504700283F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07C8D3C2454504700283F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07C8D422454509700283F3F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B07C8D442454518C00283F3F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		B07C8D4624545CED00283F3F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B07C8D482454614E00283F3F /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		B07C8D4A2454615D00283F3F /* OpenAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				B07C8D372454504700283F3F /* Assets.xcassets */,
 				B07C8D392454504700283F3F /* LaunchScreen.storyboard */,
 				B07C8D3C2454504700283F3F /* Info.plist */,
+				B07C8D422454509700283F3F /* Coordinator.swift */,
+				B07C8D442454518C00283F3F /* Storyboarded.swift */,
+				B07C8D4624545CED00283F3F /* MainCoordinator.swift */,
+				B07C8D482454614E00283F3F /* BuyViewController.swift */,
+				B07C8D4A2454615D00283F3F /* OpenAccountViewController.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07C8D4B2454615D00283F3F /* OpenAccountViewController.swift in Sources */,
+				B07C8D432454509700283F3F /* Coordinator.swift in Sources */,
+				B07C8D4724545CED00283F3F /* MainCoordinator.swift in Sources */,
 				B07C8D332454504500283F3F /* ViewController.swift in Sources */,
+				B07C8D452454518C00283F3F /* Storyboarded.swift in Sources */,
 				B07C8D2F2454504500283F3F /* AppDelegate.swift in Sources */,
+				B07C8D492454614E00283F3F /* BuyViewController.swift in Sources */,
 				B07C8D312454504500283F3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
